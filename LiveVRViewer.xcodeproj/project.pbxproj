@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D2290C841C3E9D77006519F4 /* DeviceList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D2290C6C1C3E9D77006519F4 /* DeviceList.cpp */; };
+		D2290C851C3E9D77006519F4 /* Frame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D2290C6E1C3E9D77006519F4 /* Frame.cpp */; };
+		D2290C861C3E9D77006519F4 /* Input.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D2290C701C3E9D77006519F4 /* Input.cpp */; };
+		D2290C871C3E9D77006519F4 /* Iterator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D2290C721C3E9D77006519F4 /* Iterator.cpp */; };
+		D2290C881C3E9D77006519F4 /* DeckLinkAPIDispatch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D2290C791C3E9D77006519F4 /* DeckLinkAPIDispatch.cpp */; };
+		D2290C891C3E9D77006519F4 /* Utils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D2290C7E1C3E9D77006519F4 /* Utils.cpp */; };
+		D23364721C4A4EFA009DEEF5 /* ofxSyphonClient.mm in Sources */ = {isa = PBXBuildFile; fileRef = D23364651C4A4EFA009DEEF5 /* ofxSyphonClient.mm */; };
+		D23364731C4A4EFA009DEEF5 /* ofxSyphonServer.mm in Sources */ = {isa = PBXBuildFile; fileRef = D23364671C4A4EFA009DEEF5 /* ofxSyphonServer.mm */; };
+		D23364741C4A4EFA009DEEF5 /* ofxSyphonServerDirectory.mm in Sources */ = {isa = PBXBuildFile; fileRef = D23364691C4A4EFA009DEEF5 /* ofxSyphonServerDirectory.mm */; };
+		D23364751C4A4EFA009DEEF5 /* Syphon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D233646E1C4A4EFA009DEEF5 /* Syphon.framework */; };
+		D23364761C4A4EFA009DEEF5 /* Syphon.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = D233646E1C4A4EFA009DEEF5 /* Syphon.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D23364771C4A4EFA009DEEF5 /* SyphonNameboundClient.m in Sources */ = {isa = PBXBuildFile; fileRef = D23364711C4A4EFA009DEEF5 /* SyphonNameboundClient.m */; };
+		D2E983101C044AD700416BEB /* ofxBaseGui.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D2E982FF1C044AD700416BEB /* ofxBaseGui.cpp */; };
+		D2E983111C044AD700416BEB /* ofxButton.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D2E983011C044AD700416BEB /* ofxButton.cpp */; };
+		D2E983121C044AD700416BEB /* ofxGuiGroup.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D2E983041C044AD700416BEB /* ofxGuiGroup.cpp */; };
+		D2E983131C044AD700416BEB /* ofxLabel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D2E983061C044AD700416BEB /* ofxLabel.cpp */; };
+		D2E983141C044AD700416BEB /* ofxPanel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D2E983081C044AD700416BEB /* ofxPanel.cpp */; };
+		D2E983151C044AD700416BEB /* ofxSlider.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D2E9830A1C044AD700416BEB /* ofxSlider.cpp */; };
+		D2E983161C044AD700416BEB /* ofxSliderGroup.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D2E9830C1C044AD700416BEB /* ofxSliderGroup.cpp */; };
+		D2E983171C044AD700416BEB /* ofxToggle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D2E9830E1C044AD700416BEB /* ofxToggle.cpp */; };
+		D2F7A9871C4A7143009258DE /* OSXWindow.mm in Sources */ = {isa = PBXBuildFile; fileRef = D2F7A9861C4A7143009258DE /* OSXWindow.mm */; };
+		E4328149138ABC9F0047C5CB /* openFrameworksDebug.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4328148138ABC890047C5CB /* openFrameworksDebug.a */; };
+		E4B69E200A3A1BDC003C02F2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4B69E1D0A3A1BDC003C02F2 /* main.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E4328147138ABC890047C5CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E4B27C1510CBEB8E00536013;
+			remoteInfo = openFrameworks;
+		};
+		E4EEB9AB138B136A00A80321 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = E4B27C1410CBEB8E00536013;
+			remoteInfo = openFrameworks;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E4C2427710CC5ABF004149E2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				D23364761C4A4EFA009DEEF5 /* Syphon.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D2290C6C1C3E9D77006519F4 /* DeviceList.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DeviceList.cpp; sourceTree = "<group>"; };
+		D2290C6D1C3E9D77006519F4 /* DeviceList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeviceList.h; sourceTree = "<group>"; };
+		D2290C6E1C3E9D77006519F4 /* Frame.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Frame.cpp; sourceTree = "<group>"; };
+		D2290C6F1C3E9D77006519F4 /* Frame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Frame.h; sourceTree = "<group>"; };
+		D2290C701C3E9D77006519F4 /* Input.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Input.cpp; sourceTree = "<group>"; };
+		D2290C711C3E9D77006519F4 /* Input.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Input.h; sourceTree = "<group>"; };
+		D2290C721C3E9D77006519F4 /* Iterator.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Iterator.cpp; sourceTree = "<group>"; };
+		D2290C731C3E9D77006519F4 /* Iterator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Iterator.h; sourceTree = "<group>"; };
+		D2290C751C3E9D77006519F4 /* DeckLinkAPI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeckLinkAPI.h; sourceTree = "<group>"; };
+		D2290C761C3E9D77006519F4 /* DeckLinkAPIConfiguration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeckLinkAPIConfiguration.h; sourceTree = "<group>"; };
+		D2290C771C3E9D77006519F4 /* DeckLinkAPIDeckControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeckLinkAPIDeckControl.h; sourceTree = "<group>"; };
+		D2290C781C3E9D77006519F4 /* DeckLinkAPIDiscovery.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeckLinkAPIDiscovery.h; sourceTree = "<group>"; };
+		D2290C791C3E9D77006519F4 /* DeckLinkAPIDispatch.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DeckLinkAPIDispatch.cpp; sourceTree = "<group>"; };
+		D2290C7A1C3E9D77006519F4 /* DeckLinkAPIModes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeckLinkAPIModes.h; sourceTree = "<group>"; };
+		D2290C7B1C3E9D77006519F4 /* DeckLinkAPIStreaming.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeckLinkAPIStreaming.h; sourceTree = "<group>"; };
+		D2290C7C1C3E9D77006519F4 /* DeckLinkAPITypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeckLinkAPITypes.h; sourceTree = "<group>"; };
+		D2290C7D1C3E9D77006519F4 /* DeckLinkAPIVersion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeckLinkAPIVersion.h; sourceTree = "<group>"; };
+		D2290C7E1C3E9D77006519F4 /* Utils.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Utils.cpp; sourceTree = "<group>"; };
+		D2290C7F1C3E9D77006519F4 /* Utils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		D2290C831C3E9D77006519F4 /* ofxBlackMagic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxBlackMagic.h; sourceTree = "<group>"; };
+		D23364631C4A4EFA009DEEF5 /* ofxSyphon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxSyphon.h; sourceTree = "<group>"; };
+		D23364641C4A4EFA009DEEF5 /* ofxSyphonClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxSyphonClient.h; sourceTree = "<group>"; };
+		D23364651C4A4EFA009DEEF5 /* ofxSyphonClient.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ofxSyphonClient.mm; sourceTree = "<group>"; };
+		D23364661C4A4EFA009DEEF5 /* ofxSyphonServer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxSyphonServer.h; sourceTree = "<group>"; };
+		D23364671C4A4EFA009DEEF5 /* ofxSyphonServer.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ofxSyphonServer.mm; sourceTree = "<group>"; };
+		D23364681C4A4EFA009DEEF5 /* ofxSyphonServerDirectory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxSyphonServerDirectory.h; sourceTree = "<group>"; };
+		D23364691C4A4EFA009DEEF5 /* ofxSyphonServerDirectory.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ofxSyphonServerDirectory.mm; sourceTree = "<group>"; };
+		D233646E1C4A4EFA009DEEF5 /* Syphon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Syphon.framework; sourceTree = "<group>"; };
+		D23364701C4A4EFA009DEEF5 /* SyphonNameboundClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SyphonNameboundClient.h; sourceTree = "<group>"; };
+		D23364711C4A4EFA009DEEF5 /* SyphonNameboundClient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SyphonNameboundClient.m; sourceTree = "<group>"; };
+		D2E982FF1C044AD700416BEB /* ofxBaseGui.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ofxBaseGui.cpp; sourceTree = "<group>"; };
+		D2E983001C044AD700416BEB /* ofxBaseGui.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxBaseGui.h; sourceTree = "<group>"; };
+		D2E983011C044AD700416BEB /* ofxButton.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ofxButton.cpp; sourceTree = "<group>"; };
+		D2E983021C044AD700416BEB /* ofxButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxButton.h; sourceTree = "<group>"; };
+		D2E983031C044AD700416BEB /* ofxGui.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxGui.h; sourceTree = "<group>"; };
+		D2E983041C044AD700416BEB /* ofxGuiGroup.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ofxGuiGroup.cpp; sourceTree = "<group>"; };
+		D2E983051C044AD700416BEB /* ofxGuiGroup.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxGuiGroup.h; sourceTree = "<group>"; };
+		D2E983061C044AD700416BEB /* ofxLabel.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ofxLabel.cpp; sourceTree = "<group>"; };
+		D2E983071C044AD700416BEB /* ofxLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxLabel.h; sourceTree = "<group>"; };
+		D2E983081C044AD700416BEB /* ofxPanel.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ofxPanel.cpp; sourceTree = "<group>"; };
+		D2E983091C044AD700416BEB /* ofxPanel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxPanel.h; sourceTree = "<group>"; };
+		D2E9830A1C044AD700416BEB /* ofxSlider.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ofxSlider.cpp; sourceTree = "<group>"; };
+		D2E9830B1C044AD700416BEB /* ofxSlider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxSlider.h; sourceTree = "<group>"; };
+		D2E9830C1C044AD700416BEB /* ofxSliderGroup.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ofxSliderGroup.cpp; sourceTree = "<group>"; };
+		D2E9830D1C044AD700416BEB /* ofxSliderGroup.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxSliderGroup.h; sourceTree = "<group>"; };
+		D2E9830E1C044AD700416BEB /* ofxToggle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ofxToggle.cpp; sourceTree = "<group>"; };
+		D2E9830F1C044AD700416BEB /* ofxToggle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxToggle.h; sourceTree = "<group>"; };
+		D2F7A9851C4A7143009258DE /* OSXWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSXWindow.h; sourceTree = "<group>"; };
+		D2F7A9861C4A7143009258DE /* OSXWindow.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = OSXWindow.mm; sourceTree = "<group>"; };
+		E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = openFrameworksLib.xcodeproj; path = ../../../libs/openFrameworksCompiled/project/osx/openFrameworksLib.xcodeproj; sourceTree = SOURCE_ROOT; };
+		E4B69B5B0A3A1756003C02F2 /* VRLiveViewerDebug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = VRLiveViewerDebug.app; path = LiveVRViewerDebug.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4B69E1D0A3A1BDC003C02F2 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = src/main.cpp; sourceTree = SOURCE_ROOT; };
+		E4B6FCAD0C3E899E008CF71C /* openFrameworks-Info.plist */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.plist.xml; path = "openFrameworks-Info.plist"; sourceTree = "<group>"; };
+		E4EB691F138AFCF100A09F29 /* CoreOF.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = CoreOF.xcconfig; path = ../../../libs/openFrameworksCompiled/project/osx/CoreOF.xcconfig; sourceTree = SOURCE_ROOT; };
+		E4EB6923138AFD0F00A09F29 /* Project.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Project.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E4B69B590A3A1756003C02F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4328149138ABC9F0047C5CB /* openFrameworksDebug.a in Frameworks */,
+				D23364751C4A4EFA009DEEF5 /* Syphon.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6948EE371B920CB800B5AC1A /* local_addons */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = local_addons;
+			sourceTree = "<group>";
+		};
+		BB4B014C10F69532006C3DED /* addons */ = {
+			isa = PBXGroup;
+			children = (
+				D2E982FD1C044AD700416BEB /* ofxGui */,
+				D2290C691C3E9D77006519F4 /* ofxBlackmagic2 */,
+				D23364611C4A4EFA009DEEF5 /* ofxSyphon */,
+			);
+			name = addons;
+			sourceTree = "<group>";
+		};
+		D2290C691C3E9D77006519F4 /* ofxBlackmagic2 */ = {
+			isa = PBXGroup;
+			children = (
+				D2290C6A1C3E9D77006519F4 /* src */,
+			);
+			name = ofxBlackmagic2;
+			sourceTree = "<group>";
+		};
+		D2290C6A1C3E9D77006519F4 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				D2290C6B1C3E9D77006519F4 /* ofxBlackMagic */,
+				D2290C831C3E9D77006519F4 /* ofxBlackMagic.h */,
+			);
+			name = src;
+			path = ../../../addons/ofxBlackmagic2/src;
+			sourceTree = "<group>";
+		};
+		D2290C6B1C3E9D77006519F4 /* ofxBlackMagic */ = {
+			isa = PBXGroup;
+			children = (
+				D2290C6C1C3E9D77006519F4 /* DeviceList.cpp */,
+				D2290C6D1C3E9D77006519F4 /* DeviceList.h */,
+				D2290C6E1C3E9D77006519F4 /* Frame.cpp */,
+				D2290C6F1C3E9D77006519F4 /* Frame.h */,
+				D2290C701C3E9D77006519F4 /* Input.cpp */,
+				D2290C711C3E9D77006519F4 /* Input.h */,
+				D2290C721C3E9D77006519F4 /* Iterator.cpp */,
+				D2290C731C3E9D77006519F4 /* Iterator.h */,
+				D2290C741C3E9D77006519F4 /* osx */,
+				D2290C7E1C3E9D77006519F4 /* Utils.cpp */,
+				D2290C7F1C3E9D77006519F4 /* Utils.h */,
+			);
+			path = ofxBlackMagic;
+			sourceTree = "<group>";
+		};
+		D2290C741C3E9D77006519F4 /* osx */ = {
+			isa = PBXGroup;
+			children = (
+				D2290C751C3E9D77006519F4 /* DeckLinkAPI.h */,
+				D2290C761C3E9D77006519F4 /* DeckLinkAPIConfiguration.h */,
+				D2290C771C3E9D77006519F4 /* DeckLinkAPIDeckControl.h */,
+				D2290C781C3E9D77006519F4 /* DeckLinkAPIDiscovery.h */,
+				D2290C791C3E9D77006519F4 /* DeckLinkAPIDispatch.cpp */,
+				D2290C7A1C3E9D77006519F4 /* DeckLinkAPIModes.h */,
+				D2290C7B1C3E9D77006519F4 /* DeckLinkAPIStreaming.h */,
+				D2290C7C1C3E9D77006519F4 /* DeckLinkAPITypes.h */,
+				D2290C7D1C3E9D77006519F4 /* DeckLinkAPIVersion.h */,
+			);
+			path = osx;
+			sourceTree = "<group>";
+		};
+		D23364611C4A4EFA009DEEF5 /* ofxSyphon */ = {
+			isa = PBXGroup;
+			children = (
+				D23364621C4A4EFA009DEEF5 /* src */,
+				D233646A1C4A4EFA009DEEF5 /* libs */,
+			);
+			name = ofxSyphon;
+			sourceTree = "<group>";
+		};
+		D23364621C4A4EFA009DEEF5 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				D23364631C4A4EFA009DEEF5 /* ofxSyphon.h */,
+				D23364641C4A4EFA009DEEF5 /* ofxSyphonClient.h */,
+				D23364651C4A4EFA009DEEF5 /* ofxSyphonClient.mm */,
+				D23364661C4A4EFA009DEEF5 /* ofxSyphonServer.h */,
+				D23364671C4A4EFA009DEEF5 /* ofxSyphonServer.mm */,
+				D23364681C4A4EFA009DEEF5 /* ofxSyphonServerDirectory.h */,
+				D23364691C4A4EFA009DEEF5 /* ofxSyphonServerDirectory.mm */,
+			);
+			name = src;
+			path = ../../../addons/ofxSyphon/src;
+			sourceTree = "<group>";
+		};
+		D233646A1C4A4EFA009DEEF5 /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				D233646B1C4A4EFA009DEEF5 /* Syphon */,
+			);
+			name = libs;
+			path = ../../../addons/ofxSyphon/libs;
+			sourceTree = "<group>";
+		};
+		D233646B1C4A4EFA009DEEF5 /* Syphon */ = {
+			isa = PBXGroup;
+			children = (
+				D233646C1C4A4EFA009DEEF5 /* lib */,
+				D233646F1C4A4EFA009DEEF5 /* src */,
+			);
+			path = Syphon;
+			sourceTree = "<group>";
+		};
+		D233646C1C4A4EFA009DEEF5 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				D233646D1C4A4EFA009DEEF5 /* osx */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		D233646D1C4A4EFA009DEEF5 /* osx */ = {
+			isa = PBXGroup;
+			children = (
+				D233646E1C4A4EFA009DEEF5 /* Syphon.framework */,
+			);
+			path = osx;
+			sourceTree = "<group>";
+		};
+		D233646F1C4A4EFA009DEEF5 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				D23364701C4A4EFA009DEEF5 /* SyphonNameboundClient.h */,
+				D23364711C4A4EFA009DEEF5 /* SyphonNameboundClient.m */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		D2E982FD1C044AD700416BEB /* ofxGui */ = {
+			isa = PBXGroup;
+			children = (
+				D2E982FE1C044AD700416BEB /* src */,
+			);
+			name = ofxGui;
+			sourceTree = "<group>";
+		};
+		D2E982FE1C044AD700416BEB /* src */ = {
+			isa = PBXGroup;
+			children = (
+				D2E982FF1C044AD700416BEB /* ofxBaseGui.cpp */,
+				D2E983001C044AD700416BEB /* ofxBaseGui.h */,
+				D2E983011C044AD700416BEB /* ofxButton.cpp */,
+				D2E983021C044AD700416BEB /* ofxButton.h */,
+				D2E983031C044AD700416BEB /* ofxGui.h */,
+				D2E983041C044AD700416BEB /* ofxGuiGroup.cpp */,
+				D2E983051C044AD700416BEB /* ofxGuiGroup.h */,
+				D2E983061C044AD700416BEB /* ofxLabel.cpp */,
+				D2E983071C044AD700416BEB /* ofxLabel.h */,
+				D2E983081C044AD700416BEB /* ofxPanel.cpp */,
+				D2E983091C044AD700416BEB /* ofxPanel.h */,
+				D2E9830A1C044AD700416BEB /* ofxSlider.cpp */,
+				D2E9830B1C044AD700416BEB /* ofxSlider.h */,
+				D2E9830C1C044AD700416BEB /* ofxSliderGroup.cpp */,
+				D2E9830D1C044AD700416BEB /* ofxSliderGroup.h */,
+				D2E9830E1C044AD700416BEB /* ofxToggle.cpp */,
+				D2E9830F1C044AD700416BEB /* ofxToggle.h */,
+			);
+			name = src;
+			path = ../../../addons/ofxGui/src;
+			sourceTree = "<group>";
+		};
+		E4328144138ABC890047C5CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E4328148138ABC890047C5CB /* openFrameworksDebug.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E4B69B4A0A3A1720003C02F2 = {
+			isa = PBXGroup;
+			children = (
+				E4B6FCAD0C3E899E008CF71C /* openFrameworks-Info.plist */,
+				E4EB6923138AFD0F00A09F29 /* Project.xcconfig */,
+				E4B69E1C0A3A1BDC003C02F2 /* src */,
+				E4EEC9E9138DF44700A80321 /* openFrameworks */,
+				BB4B014C10F69532006C3DED /* addons */,
+				6948EE371B920CB800B5AC1A /* local_addons */,
+				E4B69B5B0A3A1756003C02F2 /* VRLiveViewerDebug.app */,
+			);
+			sourceTree = "<group>";
+		};
+		E4B69E1C0A3A1BDC003C02F2 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				D2F7A9851C4A7143009258DE /* OSXWindow.h */,
+				D2F7A9861C4A7143009258DE /* OSXWindow.mm */,
+				E4B69E1D0A3A1BDC003C02F2 /* main.cpp */,
+			);
+			path = src;
+			sourceTree = SOURCE_ROOT;
+		};
+		E4EEC9E9138DF44700A80321 /* openFrameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4EB691F138AFCF100A09F29 /* CoreOF.xcconfig */,
+				E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */,
+			);
+			name = openFrameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E4B69B5A0A3A1756003C02F2 /* LiveVRViewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4B69B5F0A3A1757003C02F2 /* Build configuration list for PBXNativeTarget "LiveVRViewer" */;
+			buildPhases = (
+				E4B69B580A3A1756003C02F2 /* Sources */,
+				E4B69B590A3A1756003C02F2 /* Frameworks */,
+				E4B6FFFD0C3F9AB9008CF71C /* ShellScript */,
+				E4C2427710CC5ABF004149E2 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E4EEB9AC138B136A00A80321 /* PBXTargetDependency */,
+			);
+			name = LiveVRViewer;
+			productName = myOFApp;
+			productReference = E4B69B5B0A3A1756003C02F2 /* VRLiveViewerDebug.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E4B69B4C0A3A1720003C02F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+			};
+			buildConfigurationList = E4B69B4D0A3A1720003C02F2 /* Build configuration list for PBXProject "LiveVRViewer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = E4B69B4A0A3A1720003C02F2;
+			productRefGroup = E4B69B4A0A3A1720003C02F2;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = E4328144138ABC890047C5CB /* Products */;
+					ProjectRef = E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				E4B69B5A0A3A1756003C02F2 /* LiveVRViewer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		E4328148138ABC890047C5CB /* openFrameworksDebug.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = openFrameworksDebug.a;
+			remoteRef = E4328147138ABC890047C5CB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E4B6FFFD0C3F9AB9008CF71C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "rsync -aved ../../../libs/fmodex/lib/osx/libfmodex.dylib \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/MacOS/\"; install_name_tool -change ./libfmodex.dylib @executable_path/libfmodex.dylib \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/MacOS/$PRODUCT_NAME\";\nmkdir -p \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Resources/\"\nrsync -aved \"$ICON_FILE\" \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Resources/\"\nrsync -aved ../../../libs/glut/lib/osx/GLUT.framework \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Frameworks/\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E4B69B580A3A1756003C02F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2E983161C044AD700416BEB /* ofxSliderGroup.cpp in Sources */,
+				D2E983101C044AD700416BEB /* ofxBaseGui.cpp in Sources */,
+				D2E983171C044AD700416BEB /* ofxToggle.cpp in Sources */,
+				D2E983151C044AD700416BEB /* ofxSlider.cpp in Sources */,
+				D2E983111C044AD700416BEB /* ofxButton.cpp in Sources */,
+				D2290C851C3E9D77006519F4 /* Frame.cpp in Sources */,
+				D2F7A9871C4A7143009258DE /* OSXWindow.mm in Sources */,
+				D2290C861C3E9D77006519F4 /* Input.cpp in Sources */,
+				D23364721C4A4EFA009DEEF5 /* ofxSyphonClient.mm in Sources */,
+				D2290C881C3E9D77006519F4 /* DeckLinkAPIDispatch.cpp in Sources */,
+				D23364731C4A4EFA009DEEF5 /* ofxSyphonServer.mm in Sources */,
+				D2E983141C044AD700416BEB /* ofxPanel.cpp in Sources */,
+				D2E983131C044AD700416BEB /* ofxLabel.cpp in Sources */,
+				D2290C871C3E9D77006519F4 /* Iterator.cpp in Sources */,
+				D23364771C4A4EFA009DEEF5 /* SyphonNameboundClient.m in Sources */,
+				D23364741C4A4EFA009DEEF5 /* ofxSyphonServerDirectory.mm in Sources */,
+				E4B69E200A3A1BDC003C02F2 /* main.cpp in Sources */,
+				D2E983121C044AD700416BEB /* ofxGuiGroup.cpp in Sources */,
+				D2290C891C3E9D77006519F4 /* Utils.cpp in Sources */,
+				D2290C841C3E9D77006519F4 /* DeviceList.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E4EEB9AC138B136A00A80321 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = openFrameworks;
+			targetProxy = E4EEB9AB138B136A00A80321 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E4B69B4E0A3A1720003C02F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4EB6923138AFD0F00A09F29 /* Project.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/bin/";
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				GCC_AUTO_VECTORIZATION = YES;
+				GCC_ENABLE_SSE3_EXTENSIONS = YES;
+				GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = YES;
+				GCC_WARN_ABOUT_INVALID_OFFSETOF_MACRO = NO;
+				GCC_WARN_ALLOW_INCOMPLETE_PROTOCOL = NO;
+				GCC_WARN_UNINITIALIZED_AUTOS = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-D__MACOSX_CORE__",
+					"-mtune=native",
+				);
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E4B69B4F0A3A1720003C02F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4EB6923138AFD0F00A09F29 /* Project.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/bin/";
+				COPY_PHASE_STRIP = YES;
+				DEAD_CODE_STRIPPING = YES;
+				GCC_AUTO_VECTORIZATION = YES;
+				GCC_ENABLE_SSE3_EXTENSIONS = YES;
+				GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_UNROLL_LOOPS = YES;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = YES;
+				GCC_WARN_ABOUT_INVALID_OFFSETOF_MACRO = NO;
+				GCC_WARN_ALLOW_INCOMPLETE_PROTOCOL = NO;
+				GCC_WARN_UNINITIALIZED_AUTOS = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-D__MACOSX_CORE__",
+					"-mtune=native",
+				);
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E4B69B600A3A1757003C02F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4EB6923138AFD0F00A09F29 /* Project.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+					/Users/nishimura/Desktop/_Data/oF/of_v0.9.0_osx_release/addons/ofxSyphon/libs/Syphon/lib/osx,
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../../../libs/glut/lib/osx\"";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = NONE;
+				ICON = "$(ICON_NAME_DEBUG)";
+				ICON_FILE = "$(ICON_FILE_PATH)$(ICON)";
+				INFOPLIST_FILE = "openFrameworks-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_NAME = LiveVRViewerDebug;
+				SDKROOT = macosx10.9;
+				USER_HEADER_SEARCH_PATHS = ../../../addons/ofxBlackmagic/libs/DeckLink/include/;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E4B69B610A3A1757003C02F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4EB6923138AFD0F00A09F29 /* Project.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+					/Users/nishimura/Desktop/_Data/oF/of_v0.9.0_osx_release/addons/ofxSyphon/libs/Syphon/lib/osx,
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../../../libs/glut/lib/osx\"";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = NONE;
+				ICON = "$(ICON_NAME_RELEASE)";
+				ICON_FILE = "$(ICON_FILE_PATH)$(ICON)";
+				INFOPLIST_FILE = "openFrameworks-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_NAME = LiveVRViewer;
+				SDKROOT = macosx10.9;
+				USER_HEADER_SEARCH_PATHS = ../../../addons/ofxBlackmagic/libs/DeckLink/include/;
+				WRAPPER_EXTENSION = app;
+				baseConfigurationReference = E4EB6923138AFD0F00A09F29;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E4B69B4D0A3A1720003C02F2 /* Build configuration list for PBXProject "LiveVRViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4B69B4E0A3A1720003C02F2 /* Debug */,
+				E4B69B4F0A3A1720003C02F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4B69B5F0A3A1757003C02F2 /* Build configuration list for PBXNativeTarget "LiveVRViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4B69B600A3A1757003C02F2 /* Debug */,
+				E4B69B610A3A1757003C02F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E4B69B4C0A3A1720003C02F2 /* Project object */;
+}
